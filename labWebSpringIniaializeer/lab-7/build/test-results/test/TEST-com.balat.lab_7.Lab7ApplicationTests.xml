@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.balat.lab_7.Lab7ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-20T14:33:48.918Z" hostname="DESKTOP-J569L9B" time="4.643">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.balat.lab_7.Lab7ApplicationTests" time="4.643"/>
+  <system-out><![CDATA[22:33:40.099 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.balat.lab_7.Lab7ApplicationTests]: Lab7ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:33:40.554 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.balat.lab_7.Lab7Application for test class com.balat.lab_7.Lab7ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2025-11-20T22:33:43.312+08:00  INFO 2328 --- [lab-7] [    Test worker] com.balat.lab_7.Lab7ApplicationTests     : Starting Lab7ApplicationTests using Java 25 with PID 2328 (started by acer in C:\Users\acer\Desktop\labWebSpringIniaializeer\lab-7)
+2025-11-20T22:33:43.318+08:00  INFO 2328 --- [lab-7] [    Test worker] com.balat.lab_7.Lab7ApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T22:33:48.880+08:00  INFO 2328 --- [lab-7] [    Test worker] com.balat.lab_7.Lab7ApplicationTests     : Started Lab7ApplicationTests in 7.503 seconds (process running for 15.014)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\acer\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.8\f09415827a71be7ed621c7bd02550678f28bc81c\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
